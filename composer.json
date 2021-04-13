@@ -1,4 +1,9 @@
 {
     "name": "everydayspeech/mandrill-lib",
-    "type": "library"
+    "type": "library",
+    "autoload": {
+        "classmap": [
+            "Mandrill.php"
+        ]
+    }
 }
